@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Biosonar Calculator
+
+Biosonar Calculator is a modern web application built with Next.js and Tailwind CSS that allows users to explore how different animals use acoustic waves to perceive their environment. The application calculates distances and frequencies based on the speed of sound in various mediums (air, water, ground).
+
+## Features
+
+- **Animal Selection**: Choose between different animals (Bat, Whale, Elephant) to understand their specific biosonar mechanics.
+- **Distance Calculation**: Calculate distance based on echo time and the speed of sound in the animal's medium.
+- **Doppler Effect Calculation**: Calculate the received frequency based on the target's velocity.
+- **Interactive UI**: Enjoy a responsive and modern user interface with smooth animations and dynamic particle effects.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) (React Framework)
+- [Tailwind CSS](https://tailwindcss.com/) (Styling)
+- [Framer Motion](https://www.framer.com/motion/) (Animations)
+- [Lucide React](https://lucide.dev/) (Icons)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/alejonanes/Geolocalizacion.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd biosonar
+   ```
+
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Development Server
+
+Start the development server with:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/app/page.tsx`: Main application page containing the biosonar logic and UI.
+- `src/app/globals.css`: Global styles including custom animations and utility classes.
+- `public/`: Static assets such as images (bat.png, whale.png, elephant.png).
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.

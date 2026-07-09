@@ -1,60 +1,47 @@
-# Biosonar Calculator
+# Calculadora de Biosonar
 
-Biosonar Calculator is a modern web application built with Next.js and Tailwind CSS that allows users to explore how different animals use acoustic waves to perceive their environment. The application calculates distances and frequencies based on the speed of sound in various mediums (air, water, ground).
+Esta aplicación web interactiva, desarrollada con Next.js y Tailwind CSS, ilustra de manera didáctica cómo diferentes animales utilizan ondas acústicas para percibir su entorno. Permite realizar simulaciones de distancia y efecto Doppler según la especie seleccionada y su medio de propagación.
 
-## Features
+## Funcionalidades
 
-- **Animal Selection**: Choose between different animals (Bat, Whale, Elephant) to understand their specific biosonar mechanics.
-- **Distance Calculation**: Calculate distance based on echo time and the speed of sound in the animal's medium.
-- **Doppler Effect Calculation**: Calculate the received frequency based on the target's velocity.
-- **Interactive UI**: Enjoy a responsive and modern user interface with smooth animations and dynamic particle effects.
+- **Exploración por Especie**: Permite seleccionar entre distintas especies (murciélago, ballena y elefante) para entender sus mecanismos de percepción acústica.
+- **Cálculo de Distancia**: Estima la distancia a un objetivo basándose en el tiempo de retorno del eco y la velocidad del sonido en el medio correspondiente.
+- **Efecto Doppler**: Calcula la variación de la frecuencia percibida según la velocidad de movimiento del objetivo.
+- **Interfaz Interactiva**: Diseño moderno y responsivo con animaciones fluidas.
 
-## Technologies Used
+## Tecnologías
 
-- [Next.js](https://nextjs.org/) (React Framework)
-- [Tailwind CSS](https://tailwindcss.com/) (Styling)
-- [Framer Motion](https://www.framer.com/motion/) (Animations)
-- [Lucide React](https://lucide.dev/) (Icons)
+- [Next.js](https://nextjs.org/) - Framework de React
+- [Tailwind CSS](https://tailwindcss.com/) - Framework de utilidades CSS
+- [Framer Motion](https://www.framer.com/motion/) - Biblioteca de animaciones para React
+- [Lucide React](https://lucide.dev/) - Iconografía
 
-## Getting Started
+## Ejecución Local
 
-### Prerequisites
+Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
-Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
-
-### Installation
-
-1. Clone the repository:
+1. Clona el repositorio:
    ```bash
    git clone https://github.com/alejonanes/Geolocalizacion.git
    ```
 
-2. Navigate to the project directory:
+2. Navega al directorio del proyecto:
    ```bash
    cd biosonar
    ```
 
-3. Install the dependencies:
+3. Instala las dependencias:
    ```bash
    npm install
    ```
 
-### Running the Development Server
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
 
-Start the development server with:
+5. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
 
-```bash
-npm run dev
-```
+## Licencia
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Project Structure
-
-- `src/app/page.tsx`: Main application page containing the biosonar logic and UI.
-- `src/app/globals.css`: Global styles including custom animations and utility classes.
-- `public/`: Static assets such as images (bat.png, whale.png, elephant.png).
-
-## License
-
-This project is licensed under the MIT License.
+Este proyecto está distribuido bajo la Licencia MIT.
